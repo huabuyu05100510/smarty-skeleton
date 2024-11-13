@@ -12,6 +12,15 @@ importers:
         specifier: ^6.6.2
         version: 6.6.2
 
+  packages/smarty-skeleton-loading:
+    devDependencies:
+      typescript:
+        specifier: ~5.6.3
+        version: 5.6.3
+      vite:
+        specifier: ^5.4.9
+        version: 5.4.9
+
   packages/smarty-skeleton-sdk:
     devDependencies:
       typescript:

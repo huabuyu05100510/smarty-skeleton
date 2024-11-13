@@ -1,14 +1,14 @@
 {
-  "name": "smarty-skeleton-sdk",
+  "name": "smarty-skeleton-loading",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/main.cjs",
-  "module": "./dist/main.mjs",
+  "main": "./dist/counter.umd.cjs",
+  "module": "./dist/counter.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
