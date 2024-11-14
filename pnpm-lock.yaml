@@ -18,6 +18,15 @@ importers:
         specifier: ^6.6.2
         version: 6.6.2
 
+  packages/smarty-skeleton-docs:
+    devDependencies:
+      babel-plugin-import:
+        specifier: ^1.13.8
+        version: 1.13.8
+      dumi:
+        specifier: ^1.1.48
+        version: 1.1.48(react-dom@16.14.0)(react-router@6.28.0)(react@17.0.2)(typescript@5.6.3)
+
   packages/smarty-skeleton-loading:
     devDependencies:
       typescript:

@@ -5,8 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "dumi dev",
-    "build:doc": "dumi build",
+    "build": "pnpm -r --filter=./packages/* run build",
     "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
     "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
     "preinstall": "npx only-allow pnpm"
